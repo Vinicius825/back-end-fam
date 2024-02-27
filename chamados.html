@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novos Chamados</title>
+    <link rel="stylesheet" href="chamados.css">
+</head>
+<body>
+    <header id="header">
+        FamTickets
+    </header>
+
+    <div class="container">
+        <form >
+            <h1 class="tittleChamados">Novos Chamados</h1>
+            <hr>
+            <div class="label-float">
+            <label for="tituloChamado" class="labelchamado">Tipo do Chamado</label><br>
+            <select name="tiposchamados" id="tipoChamados" class="selectinput">
+                <option value="random">Selecione</option>
+                <option value="hardware">Hardware</option>
+                <option value="software">Software</option>
+                <option value="internet">Internet</option>
+                <option value="acessos">Acessos</option>  
+            </select>
+            
+        </div>
+        <hr>
+            <div class="label-float">
+            <label for="tituloChamado" class="labelchamado">Titulo do Chamado</label><br>
+            <input type="text" id="input" placeholder="Titulo do chamado">
+            </div>
+            <hr>
+            <div class="label-float">
+            <label for="descricaoChamado" class="labelchamado">Descrição do Chamado</label><br>
+            <input type="text" id="input" placeholder="Descreva o chamado">
+            </div>  
+            <hr>
+            
+            <input type="submit" value="Iniciar Chamado" class="button">
+
+        </form>
+    </div>
+</body>
+</html>

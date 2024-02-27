@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#header{
+    margin-left: 0.8em;
+    margin-top: 1em ;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Lilita One", sans-serif;
+    font-size: 25px;
+    }
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: #ffffff99;
+    padding: 30px;
+    border-radius: 0.8em;
+    box-shadow: 5px 3px 1px 0px #ffffff90;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000
+}
+
+.label-float input {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+select {
+    position: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    outline: none;
+    content: "";
+    border: 6px solid transparent;
+    font-size: 16px;
+
+}
+
+.label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid purple;
+}
+
+.label-float label {
+    color: #000000;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus+label,
+.label-float input:valid+label {
+    font-size: 13px;
+    margin-top: 0;
+    color: purple;
+
+}
+
+#btnCadastrar {
+    background-color: #fff;
+    color: purple;
+    border-radius: 1em;
+    padding: 0.8em 1.3em 0.8em 1.3em;
+    margin-top: 2em;
+    margin-left: 6em;
+}
+
+button:hover {
+    background-color: purple;
+    color: #ffffff;
+}
+
+
+.label-float .cadastrar {
+    font-size: 14pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
